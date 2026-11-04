@@ -58,7 +58,7 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
   7. Marcar la casilla Acepto los términos y condiciones.
   8. Hacer clic en el botón Crear cuenta.
 - Resultado esperado: El sistema muestra el mensaje de éxito "¡Registro exitoso! Bienvenido/a a MiniModa, Juan Pérez. Te enviamos un email de bienvenida (ver Bandeja)."
-- Evidencia: `evidencias/qase-MM-4-registro-alta-exitosa.png`
+- Evidencia: `qase-MINIMODA-registro-exitoso.png`
 
 ### Caso 2: Validación de límite inferior en Edad (Prueba negativa de frontera)
 - Precondiciones: el usuario debe estar en https://minimoda-navy.vercel.app/registro con el formulario vacío
@@ -72,7 +72,7 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
     7. Marcar la casilla Acepto los términos y condiciones.
     8. Hacer clic en el botón Crear cuenta.
 - Resultado esperado: El sistema impide el envío del formulario y muestra un mensaje "La edad debe estar entre 13 y 120"
-- Evidencia: `evidencias/qase-MM-5-registro-password-7.png`
+- Evidencia: `qase-MINIMODA-registro-password.png`
 
 ### Caso 3: Validación de longitud mínima de Contraseña
 - Precondiciones: el usuario debe estar en https://minimoda-navy.vercel.app/registro con el formulario vacío
@@ -86,7 +86,7 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
     7. Marcar la casilla Acepto los términos y condiciones.
     8. Hacer clic en el botón Crear cuenta.
 - Resultado esperado: El sistema rechaza el registro debido a que no se cumple el requisito mínimo de 8 caracteres.
-- Evidencia: `evidencias/qase-MM-6-registro-edad-12.png`
+- Evidencia: `qase-MINIMODA-registro-edad.png`
 
 ## 7. Mapa del harness
 | Pieza | En lo que usé                                           |
