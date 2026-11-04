@@ -88,6 +88,20 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
 - Resultado esperado: El sistema rechaza el registro debido a que no se cumple el requisito mínimo de 8 caracteres.
 - Evidencia: `qase-MINIMODA-registro-edad.png`
 
+### Caso 4: Intento de Registro sin Aceptar Términos y Condiciones
+- Precondiciones: el usuario debe estar en https://minimoda-navy.vercel.app/registro con el formulario vacío
+  - Pasos:
+    1. Ingresar "Lucía Martínez" en el campo Nombre.
+    2. Ingresar "lucia.martinez@test.com" en el campo Email.
+    3. Ingresar "Pass123" en el campo Contraseña.
+    4. Ingresar "Pass123" en el campo Confirmar contraseña.
+    5. Ingresar "28" en el campo Edad.
+    6. Seleccionar "Argentina" en el desplegable de País.
+    7. Mantener el checkbox Aceptar términos sin marcar.
+    8. Hacer clic en el botón Crear cuenta.
+- Resultado esperado:El sistema rechaza el registro debido a que no se aceptaron los terminos y condiciones
+- Evidencia: `qase-MINIMODA-registro-sin-aceptar-terminos-y-condiciones.png`
+
 ## 7. Mapa del harness
 | Pieza | En lo que usé                                           |
 |-------|---------------------------------------------------------|
