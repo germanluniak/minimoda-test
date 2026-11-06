@@ -58,7 +58,7 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
   7. Marcar la casilla Acepto los términos y condiciones.
   8. Hacer clic en el botón Crear cuenta.
 - Resultado esperado: El sistema muestra el mensaje de éxito "¡Registro exitoso! Bienvenido/a a MiniModa, Juan Pérez. Te enviamos un email de bienvenida (ver Bandeja)."
-- Evidencia: `qase-MINIMODA-registro-exitoso.png`
+- Evidencia: `evidencias/qase-MINIMODA-registro-exitoso.png`
 
 ### Caso 2: Validación de límite inferior en Edad (Prueba negativa de frontera)
 - Precondiciones: el usuario debe estar en https://minimoda-navy.vercel.app/registro con el formulario vacío
@@ -72,7 +72,7 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
     7. Marcar la casilla Acepto los términos y condiciones.
     8. Hacer clic en el botón Crear cuenta.
 - Resultado esperado: El sistema impide el envío del formulario y muestra un mensaje "La edad debe estar entre 13 y 120"
-- Evidencia: `qase-MINIMODA-registro-password.png`
+- Evidencia: `evidencias/qase-MINIMODA-registro-edad.png`
 
 ### Caso 3: Validación de longitud mínima de Contraseña
 - Precondiciones: el usuario debe estar en https://minimoda-navy.vercel.app/registro con el formulario vacío
@@ -86,21 +86,21 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
     7. Marcar la casilla Acepto los términos y condiciones.
     8. Hacer clic en el botón Crear cuenta.
 - Resultado esperado: El sistema rechaza el registro debido a que no se cumple el requisito mínimo de 8 caracteres.
-- Evidencia: `qase-MINIMODA-registro-edad.png`
+- Evidencia: `evidencias/qase-MINIMODA-registro-password.png`
 
 ### Caso 4: Intento de Registro sin Aceptar Términos y Condiciones
 - Precondiciones: el usuario debe estar en https://minimoda-navy.vercel.app/registro con el formulario vacío
   - Pasos:
     1. Ingresar "Lucía Martínez" en el campo Nombre.
     2. Ingresar "lucia.martinez@test.com" en el campo Email.
-    3. Ingresar "Pass123" en el campo Contraseña.
-    4. Ingresar "Pass123" en el campo Confirmar contraseña.
+    3. Ingresar "Pass1234" en el campo Contraseña.
+    4. Ingresar "Pass1234" en el campo Confirmar contraseña.
     5. Ingresar "28" en el campo Edad.
     6. Seleccionar "Argentina" en el desplegable de País.
     7. Mantener el checkbox Aceptar términos sin marcar.
     8. Hacer clic en el botón Crear cuenta.
 - Resultado esperado:El sistema rechaza el registro debido a que no se aceptaron los terminos y condiciones
-- Evidencia: `qase-MINIMODA-registro-sin-aceptar-terminos-y-condiciones.png`
+- Evidencia: `evidencias/qase-MINIMODA-registro-sin-aceptar-terminos-y-condiciones.png`
 
 ## 7. Mapa del harness
 | Pieza | En lo que usé                                           |
